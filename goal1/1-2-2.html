@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Goal 1 | SDG Dashboard</title>
+    <link rel="stylesheet" href="../insidestyle.css">
+  </head>
+  <body>
+    <div id="background">
+      <div id="header">
+        <div id="logos">
+          <a href="http://www.unanca.org"><img src="../img/unanca-logo.jpg" alt="The United Nations Association Presents" id="unanca"></a>
+          <a href="../index.html"><img src="../img/globaltolocallogo.png" alt="From Global to Local: Bringing the SDGs Home" id="globaltolocal"></a>
+        </div>
+        <div id="nav">
+          <a href="../index.html">Dashboard</a>
+          <a href="../about.html">About</a>
+          <a href="../research.html">Research</a>
+        </div>
+      </div>
+      <div id="goalcontent">
+      <div id="goalmain">
+        <h1><i>1.2.2 Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions</i></h1>
+      <div id="content">
+        <div id="proxyindicators">
+        <div>
+        <a href="#1">Family Poverty and Single Mother-Led Households</a>
+        <a href="#2">Children in Poverty</a>
+      </div>
+    </div>
+      <h2 id="1">Family Poverty and Single Mother-Led Households</h2>
+        <p>Wealth across the National Capital Area is concentrated geographically-- and also racially. Mean per capita income, disaggregated by race, presents a compelling visual when mapped across Maryland, Virginia, and the District of Columbia. As of 2016, the median household income for Black and African American residents in DC is <a href="https://www.dcfpi.org/all/economic-inequality-in-dc-reflects-disparities-in-income-wages-wealth-and-economic-mobility-policy-solutions-should-too/">less than one third</a> of the median household income for white residents. Poverty is dictated by a number of factors, including access to gainful employment and regional cost of living. Accounting for why a larger percentage of Black families in DC live in poverty than in Maryland cannot be reduced merely to the high cost of living in the District — one of the <a href="https://www.cnbc.com/2019/07/10/americas-10-most-expensive-states-to-live-in-2019.html">most expensive cities</a> in the country. Race and income are inextricably linked to one another, and to urban planning — our modern day communities are the <a href="https://medium.com/una-nca-snapshots/building-inclusive-cities-sustainable-urban-development-7cdacb3eb736">legacies</a> of patterns of disinvestment, gentrification, and exclusionary housing policy. This leaves us in a reality where higher-income families are predominantly white and are concentrated within the same neighborhoods and, by extension, counties or Wards. The inverse is the concentration of poverty in urban and suburban regions. Our team hypothesizes that whiter neighborhoods are wealthier in part due to greater proximity to gainful employment — the <a href="https://www.shrm.org/resourcesandtools/hr-topics/compensation/pages/racial-wage-gaps-persistence-poses-challenge.aspx">racial pay gap</a> is well documented and in part <a href="https://www.pewresearch.org/fact-tank/2016/07/01/racial-gender-wage-gaps-persist-in-u-s-despite-some-progress/">linked</a> to implicit racial and gender biases among employers and that lower shares of Black and Hispanic residents are college educated (more on why in <a href="../goal4/index.html">SDG 4</a>). However, there needs to be further investigation into the opportunity gap, wherein bias, education, and geography coalesce to shape both the demographics and wealth gaps in our communities. </p>
+
+        <div class="statecontainer">
+          <input id="1-2-2-1-DC" class="statetoggle" name="1-2-2-1" type="radio" checked>
+          <label for="1-2-2-1-DC" class="state dc" >DC</label>
+          <div class="statecollapsible">
+              <img class="graph" src="img/1-2-2-1-a.png" alt="percentage of DC families living below the poverty line in all family households vs single mother households, by ward">
+            </div>
+
+            <input id="1-2-2-1-MD" class="statetoggle" name="1-2-2-1" type="radio">
+            <label for="1-2-2-1-MD" class="state md">MD</label>
+            <div class="statecollapsible">
+                <img class="graph" src="img/1-2-2-1-b.png" alt="percentage of MD families living below the poverty line in all family households vs single mother households, by county">
+              </div>
+              <input id="1-2-2-1-VA" class="statetoggle" name="1-2-2-1" type="radio">
+              <label for="1-2-2-1-VA" class="state va">VA</label>
+              <div class="statecollapsible">
+                  <img class="graph" src="img/1-2-2-1-c.png" alt="percentage of VA families living below the poverty line in all family households vs single mother households, by county">
+                </div>
+              </div>
+      </div>
+    </div>
+    <img src="../img/gray-goal-01.png" alt="" id="goalicon">
+
+    <div id="goalnav">
+    <a href="index.html" id="breadcrumb">1. Zero Poverty</a>
+      <div>
+      <div class="togglecontainer">
+        <input id="1.1" class="toggle" type="checkbox" >
+        <label for="1.1" class="target">1.1 By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day</label>
+        <div class="collapsible">
+        <div class="indicatorlist">
+          <a href="1-1-1.html"> 1.1.1 Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</a>
+        </div>
+      </div>
+    </div>
+    <div class="togglecontainer">
+      <input id="1.2" class="toggle" type="checkbox" checked>
+      <label for="1.2" class="target">1.2 By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions	</label>
+      <div class="collapsible">
+        <div class="indicatorlist">
+          <a href="1-2-1.html"> 1.2.1 Percent of population living below the national poverty line, by sex and age</a>
+          <a href="1-2-2.html">  1.2.2 Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions</a>
+        </div>
+      </div>
+    </div>
+    <div class="togglecontainer">
+      <input id="1.3" class="toggle" type="checkbox">
+      <label for="1.3" class="target">1.3 Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable</label>
+      <div class="collapsible">
+        <div class="indicatorlist">
+          <a href="1-3-1.html"> 1.3.1 Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="togglecontainer">
+      <input id="1.4" class="toggle" type="checkbox">
+      <label for="1.4" class="target">1.4 By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance</label>
+      <div class="collapsible">
+        <div class="indicatorlist">
+          <a href="1-4-1.html">1.4.1 Proportion of population living in households with access to basic services</a>
+          <a href="1-4-2.html">1.4.2 Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="togglecontainer">
+      <input id="1.5" class="toggle" type="checkbox">
+      <label for="1.5" class="target">1.5 By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters</label>
+      <div class="collapsible">
+        <div class="indicatorlist">
+          <a href="1-5-1.html">1.5.1 Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population</a>
+          <a href="1-5-2.html">1.5.2 Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)</a>
+          <a href="1-5-3.html">1.5.3 Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030</a>
+          <a href="1-5-4.html">1.5.4 Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="togglecontainer">
+      <input id="1.a" class="toggle" type="checkbox">
+      <label for="1.a" class="target">1.a Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions</label>
+      <div class="collapsible">
+        <div class="indicatorlist">
+          <a href="1-a-1.html">1.a.1 Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income</a>
+          <a href="1-a-2.html">1.a.2 Proportion of total government spending on essential services (education, health and social protection)</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="togglecontainer" id="finaltoggle">
+      <input id="1.b" class="toggle" type="checkbox">
+      <label for="1.b" class="target">1.b Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender-sensitive development strategies, to support accelerated investment in poverty eradication actions</label>
+      <div class="collapsible">
+        <div class="indicatorlist">
+          <a href="/1-b-1.html">1.b.1 Pro-poor public social spending</a>
+        </div>
+      </div>
+      <br>
+      <br>
+    </div>
+    </div>
+  </div>
+  </div>
+    </div>
+    </div>
+  </body>
+</html>
